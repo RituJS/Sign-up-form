@@ -1,0 +1,70 @@
+<html>
+<head>
+    <title>Sign-Up Form With HTML and CSS</title>
+    <link rel="stylesheet" href="Form.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="leftdiv">
+            <img class="logo" src="NATUREDECK.png" >
+        </div>
+  <div class="rightdiv">   
+        
+        <div class="tbl">
+            <div class="formbox">
+                <div class="heading">This is not a real online service! You know you need somthing like this in youe life to 
+                    help realize your deepest dreams.Signup now to get started.<br><br>Let's do it !
+                </div>
+        <form onsubmit="return myfunc()">
+            <table>
+                <tr>
+                    <td><label>First Name:</label></td>
+                    <td><input type="text" placeholder="Thor"><br></td>
+                </tr>
+
+                <tr>
+                    <td><label>Last Name:</label></td>
+                    <td><input type="text" placeholder="Odinson" ><br></td>
+                </tr>
+
+                <tr>
+                    <td><label>Email:</label></td>
+                        <td><input type="email" placeholder="thor@gmail.com" required><br></td>
+                </tr>
+
+                <tr> 
+                    <td><label>Phone Number:</label></td>
+                    <td><input type="number" placeholder="Enter Your Ph No."  required><br></td>
+                </tr>
+
+                <tr>
+                    <td><label>Password:</label></td>
+                    <td><input type="password" id="pass1" value="" placeholder="Enter password."  required><br></td>
+                        <span id="messages" style="color:red"> </span>
+                </tr>
+                
+
+                <tr>
+                    <td><label>Repete Password:</label></td>
+                    <td><input type="password" id="pass2" value="" placeholder="confirm password."  required><br></td>
+                    <span id="messages" style="color: red;"></span>
+                </tr>
+               
+        <br>
+
+            </table><br>
+            <button type="submit"> Create Account</button><br>
+            </form>
+    </div>
+   <p>Alread have an account? Log in</p>
+    </div>
+
+
+</div>
+
+</div><!--main div-->
+
+</body>
+
+</html>
